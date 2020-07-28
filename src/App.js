@@ -13,7 +13,7 @@ function App() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Na Live de Abertura da Imersão React, vamos analisar as aplicações da tecnologia em aplicações que usamos no dia a dia, além de tirar dúvidas sobre a Imersão."}
+        videoDescription={"Canal dedicado a conteúdo sobre anos 90, curiosidades da TV, desenhos da sua infância, músicas anos 90, comerciais antigos, programas de TV, famosos, brinquedos, doces e guloseimas antigos, informações e muito entretenimento!"}
       />
 
       <Carousel
@@ -35,11 +35,7 @@ function App() {
 
       <Carousel
         category={dadosIniciais.categorias[4]}
-      />      
-
-      <Carousel
-        category={dadosIniciais.categorias[5]}
-      />      
+      />          
 
       <Footer />
     </div>
