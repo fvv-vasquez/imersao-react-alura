@@ -5,13 +5,7 @@ import Home from './pages/Home';
 import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/Categoria';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-
-//colocar um jogo
-const Pagina404 = () => (
-  <div>
-    Ooops... Deu erro!
-  </div>
-)
+import Pagina404 from './pages/error/404';
 
 ReactDOM.render(
   <BrowserRouter>
