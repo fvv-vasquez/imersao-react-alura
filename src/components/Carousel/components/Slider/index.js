@@ -18,15 +18,27 @@ const Container = styled.ul`
         
         &:before {
             font-size: 30px;
-            color: #2A7AE4;
         }
     }
 
     .slick-prev {
-        left: 0;
+        left: -40px;
     }
     .slick-next {
-        right: 16px;
+        right: 15px;
+    }
+    .slick-next::before, 
+    .slick-prev::before {
+	color: ${({ arrowColor }) => arrowColor};
+    }
+
+    @media (max-width: 800px) {
+        .slick-prev {
+            left: 5px;
+        }
+        .slick-next {
+            right: 5px;
+        }
     }
 `;
 
@@ -41,15 +53,23 @@ export const SliderItem = styled.li`
 `;
 
 
-const Slider = ({ children }) => (
-    <Container>
+const Slider = ({ arrowColor, children }) => (
+    <Container arrowColor={arrowColor}>
         <SlickSlider {...{
             dots: false,
             infinite: true,
             speed: 300,
             centerMode: false,
-            variableWidth: true,
             adaptiveHeight: true,
+            slidesToShow: 4,
+            responsive: [
+                {
+                    breakpoint: 1400,
+                    settings: {
+                        variableWidth: true,
+                    }
+                }
+            ]
         }}
         >
         {children}
