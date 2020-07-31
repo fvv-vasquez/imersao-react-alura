@@ -28,8 +28,6 @@ function CadastroCategoria() {
     };
 
     useEffect(() => {
-        console.log('window > ' + window.location.href);
-        if(window.location.href.includes('localhost')) {
             const URL = 'https://faflix.herokuapp.com/categorias'; 
             fetch(URL)
             .then(async (respostaDoServer) =>{
@@ -40,7 +38,6 @@ function CadastroCategoria() {
                 }
                 throw new Error('Não foi possível pegar os dados');
             })
-        }    
     }, []);
 
     return (
