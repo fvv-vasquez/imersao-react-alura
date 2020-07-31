@@ -28,6 +28,7 @@ function CadastroCategoria() {
     };
 
     useEffect(() => {
+        console.log('window > ' + window.location.href);
         if(window.location.href.includes('localhost')) {
             const URL = 'https://faflix.herokuapp.com/categorias'; 
             fetch(URL)
