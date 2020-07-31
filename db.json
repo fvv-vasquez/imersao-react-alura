@@ -1,1 +1,10 @@
-{}
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Front End",
+            "descricao": "teste",
+            "cor": "#6BD1FF"
+        }
+    ]
+}
