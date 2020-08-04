@@ -1,255 +1,255 @@
 {
-    "categorias": [
-        {
-            "id": 1,
-            "titulo": "Nostalgia - Anos 90",
-            "cor": "#6BD1FF",
-            "link_extra": {
-                "text": "Seja bem-vindo de volta aos Anos 90!",
-                "url": "https://www.youtube.com/c/canalnoventa"
-            }
-        },
-        {
-            "id": 2,
-            "titulo": "Músicas",
-            "cor": "#be9fe1"
-        },
-        {
-            "id": 3,
-            "titulo": "Séries",
-            "cor": "#32afa9"
-        },
-        {
-            "id": 4,
-            "titulo": "Filmes",
-            "cor": "#e4508f"
-        },
-        {
-            "id": 5,
-            "titulo": "Aprendendo a aprender tecnologia",
-            "cor": "#6b5be2",
-            "link_extra": {
-                "text": "Curso sobre aprendizado na Alura",
-                "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
-            }
-        }
-    ],
-    "videos": [
-        {
-            "id": 1,
-            "categoriaId": 1,
-            "titulo": "50 Coisas que todo mundo tinha em casa!",
-            "url": "https://www.youtube.com/watch?v=ewqk5BOT3uY"
-        },
-        {
-            "id": 2,
-            "categoriaId": 1,
-            "titulo": "TOP 10 Coisas da Internet nos Anos 90 e 2000",
-            "url": "https://www.youtube.com/watch?v=ymBEp-DIjOA"
-        },
-        {
-            "id": 3,
-            "categoriaId": 1,
-            "titulo": "A Maravilhosa e ridícula 'moda anos 90'",
-            "url": "https://www.youtube.com/watch?v=x_gvlSc6YUo"
-        },
-        {
-            "id": 4,
-            "categoriaId": 1,
-            "titulo": "Perrengues absurdos que você viveu nos anos 90",
-            "url": "https://www.youtube.com/watch?v=mWAhR2qXiFc"
-        },
-        {
-            "id": 5,
-            "categoriaId": 1,
-            "titulo": "6 coisas erradas que você já fez na infância",
-            "url": "https://www.youtube.com/watch?v=QjP5gLU6ims"
-        },
-        {
-            "id": 6,
-            "categoriaId": 1,
-            "titulo": "30 mentiras que todas as mães contam",
-            "url": "https://www.youtube.com/watch?v=Le-cOTj8ZL8"
-        },
-        {
-            "id": 7,
-            "categoriaId": 1,
-            "titulo": "As músicas de comerciais mais viciantes",
-            "url": "https://www.youtube.com/watch?v=0HuyyALWB7k"
-        },
-        {
-            "id": 8,
-            "categoriaId": 1,
-            "titulo": "10 remédios bizarros da infância",
-            "url": "https://www.youtube.com/watch?v=9PgUtPommbQ"
-        },
-        {
-            "id": 9,
-            "categoriaId": 2,
-            "titulo": "Journey - Separate Ways",
-            "url": "https://www.youtube.com/watch?v=LatorN4P9aA"
-        },
-        {
-            "id": 10,
-            "categoriaId": 2,
-            "titulo": "Whitesnake - Here I Go Again",
-            "url": "https://www.youtube.com/watch?v=WyF8RHM1OCg"
-        },
-        {
-            "id": 11,
-            "categoriaId": 2,
-            "titulo": "Van Halen - Can't Stop Loving You",
-            "url": "https://www.youtube.com/watch?v=Twi4sZrWhEE"
-        },
-        {
-            "id": 12,
-            "categoriaId": 2,
-            "titulo": "Mr. Big - Goin' Where The Wind Blows",
-            "url": "https://www.youtube.com/watch?v=JJCujOkUUS0"
-        },
-        {
-            "id": 13,
-            "categoriaId": 2,
-            "titulo": "Skid Row - I Remember You",
-            "url": "https://www.youtube.com/watch?v=qjuEXKwnkLE"
-        },
-        {
-            "id": 14,
-            "categoriaId": 2,
-            "titulo": "Helloween - Eagle Fly Free",
-            "url": "https://www.youtube.com/watch?v=cwBpgobasqI"
-        },
-        {
-            "id": 15,
-            "categoriaId": 2,
-            "titulo": "Avantasia - Dying For An Angel",
-            "url": "https://www.youtube.com/watch?v=quH_vUCdy2o"
-        },
-        {
-            "id": 16,
-            "categoriaId": 2,
-            "titulo": "Edguy - Lavatory Love Machine",
-            "url": "https://www.youtube.com/watch?v=-y3CMlvrkN0"
-        },
-        {
-            "id": 17,
-            "categoriaId": 3,
-            "titulo": "Supernatural",
-            "url": "https://www.youtube.com/watch?v=Q-ejz2RmueE"
-        },
-        {
-            "id": 18,
-            "categoriaId": 3,
-            "titulo": "The Big Bang Theory | Big Bang a Teoria",
-            "url": "https://www.youtube.com/watch?v=83OjtHMx_40"
-        },
-        {
-            "id": 19,
-            "categoriaId": 3,
-            "titulo": "That 70's Show",
-            "url": "https://www.youtube.com/watch?v=YdDC0XzhOEo"
-        },
-        {
-            "id": 20,
-            "categoriaId": 3,
-            "titulo": "X-Files | Arquivo X",
-            "url": "https://www.youtube.com/watch?v=lIh8VPoPBhk"
-        },
-        {
-            "id": 21,
-            "categoriaId": 3,
-            "titulo": "Full House | Três é Demais",
-            "url": "https://www.youtube.com/watch?v=2EL65KLdEHE"
-        },
-        {
-            "id": 22,
-            "categoriaId": 3,
-            "titulo": "Once Upon a Time | Era Uma Vez",
-            "url": "https://www.youtube.com/watch?v=tQT90enuZc4"
-        },
-        {
-            "id": 23,
-            "categoriaId": 3,
-            "titulo": "Chilling Adventures of Sabrina | O mundo sombrio de Sabrina",
-            "url": "https://www.youtube.com/watch?v=ybKUX6thF8Q"
-        },
-        {
-            "id": 24,
-            "categoriaId": 4,
-            "titulo": "Captain America: Civil War",
-            "url": "https://www.youtube.com/watch?v=FkTybqcX-Yo"
-        },
-        {
-            "id": 25,
-            "categoriaId": 4,
-            "titulo": "Thor: Ragnarok",
-            "url": "https://www.youtube.com/watch?v=ue80QwXMRHg"
-        },
-        {
-            "id": 26,
-            "categoriaId": 4,
-            "titulo": "Guardians of the Galaxy",
-            "url": "https://www.youtube.com/watch?v=d96cjJhvlMA"
-        },
-        {
-            "id": 27,
-            "categoriaId": 4,
-            "titulo": "Harry Potter - Series",
-            "url": "https://www.youtube.com/watch?v=VyHV0BRtdxo"
-        },
-        {
-            "id": 28,
-            "categoriaId": 4,
-            "titulo": "The Lord of the Rings - Trilogy",
-            "url": "https://www.youtube.com/watch?v=V75dMMIW2B4"
-        },
-        {
-            "id": 29,
-            "categoriaId": 4,
-            "titulo": "The Conjuring - Series",
-            "url": "https://www.youtube.com/watch?v=k10ETZ41q5o"
-        },
-        {
-            "id": 30,
-            "categoriaId": 4,
-            "titulo": "Insidious - Series",
-            "url": "https://www.youtube.com/watch?v=zuZnRUcoWos"
-        },
-        {
-            "id": 31,
-            "categoriaId": 4,
-            "titulo": "Paranormal Activity - Series",
-            "url": "https://www.youtube.com/watch?v=07XbSk7Rjt4"
-        },
-        {
-            "id": 32,
-            "categoriaId": 5,
-            "titulo": "Como estudar melhor?",
-            "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
-        },
-        {
-            "id": 33,
-            "categoriaId": 5,
-            "titulo": "Faculdade",
-            "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
-        },
-        {
-            "id": 34,
-            "categoriaId": 5,
-            "titulo": "Frameworks",
-            "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        },
-        {
-            "id": 35,
-            "categoriaId": 5,
-            "titulo": "A mágica do Aprendizado",
-            "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
-        },
-        {
-            "id": 36,
-            "categoriaId": 5,
-            "titulo": "Como aprender a programar?",
-            "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
-        }
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Nostalgia - Anos 90",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Seja bem-vindo de volta aos Anos 90!",
+        "url": "https://www.youtube.com/c/canalnoventa"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Músicas",
+      "cor": "#be9fe1"
+    },
+    {
+      "id": 3,
+      "titulo": "Séries",
+      "cor": "#32afa9"
+    },
+    {
+      "id": 4,
+      "titulo": "Filmes",
+      "cor": "#e4508f"
+    },
+    {
+      "id": 5,
+      "titulo": "Aprendendo a aprender tecnologia",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Curso sobre aprendizado na Alura",
+        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "50 Coisas que todo mundo tinha em casa!",
+      "url": "https://www.youtube.com/watch?v=ewqk5BOT3uY"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "TOP 10 Coisas da Internet nos Anos 90 e 2000",
+      "url": "https://www.youtube.com/watch?v=ymBEp-DIjOA"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "A Maravilhosa e ridícula 'moda anos 90'",
+      "url": "https://www.youtube.com/watch?v=x_gvlSc6YUo"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Perrengues absurdos que você viveu nos anos 90",
+      "url": "https://www.youtube.com/watch?v=mWAhR2qXiFc"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "6 coisas erradas que você já fez na infância",
+      "url": "https://www.youtube.com/watch?v=QjP5gLU6ims"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "30 mentiras que todas as mães contam",
+      "url": "https://www.youtube.com/watch?v=Le-cOTj8ZL8"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "As músicas de comerciais mais viciantes",
+      "url": "https://www.youtube.com/watch?v=0HuyyALWB7k"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "10 remédios bizarros da infância",
+      "url": "https://www.youtube.com/watch?v=9PgUtPommbQ"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Journey - Separate Ways",
+      "url": "https://www.youtube.com/watch?v=LatorN4P9aA"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Whitesnake - Here I Go Again",
+      "url": "https://www.youtube.com/watch?v=WyF8RHM1OCg"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Van Halen - Can't Stop Loving You",
+      "url": "https://www.youtube.com/watch?v=Twi4sZrWhEE"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Mr. Big - Goin' Where The Wind Blows",
+      "url": "https://www.youtube.com/watch?v=JJCujOkUUS0"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "Skid Row - I Remember You",
+      "url": "https://www.youtube.com/watch?v=qjuEXKwnkLE"
+    },
+    {
+      "id": 14,
+      "categoriaId": 2,
+      "titulo": "Helloween - Eagle Fly Free",
+      "url": "https://www.youtube.com/watch?v=cwBpgobasqI"
+    },
+    {
+      "id": 15,
+      "categoriaId": 2,
+      "titulo": "Avantasia - Dying For An Angel",
+      "url": "https://www.youtube.com/watch?v=quH_vUCdy2o"
+    },
+    {
+      "id": 16,
+      "categoriaId": 2,
+      "titulo": "Edguy - Lavatory Love Machine",
+      "url": "https://www.youtube.com/watch?v=-y3CMlvrkN0"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Supernatural",
+      "url": "https://www.youtube.com/watch?v=Q-ejz2RmueE"
+    },
+    {
+      "id": 18,
+      "categoriaId": 3,
+      "titulo": "The Big Bang Theory | Big Bang a Teoria",
+      "url": "https://www.youtube.com/watch?v=83OjtHMx_40"
+    },
+    {
+      "id": 19,
+      "categoriaId": 3,
+      "titulo": "That 70's Show",
+      "url": "https://www.youtube.com/watch?v=YdDC0XzhOEo"
+    },
+    {
+      "id": 20,
+      "categoriaId": 3,
+      "titulo": "X-Files | Arquivo X",
+      "url": "https://www.youtube.com/watch?v=lIh8VPoPBhk"
+    },
+    {
+      "id": 21,
+      "categoriaId": 3,
+      "titulo": "Full House | Três é Demais",
+      "url": "https://www.youtube.com/watch?v=2EL65KLdEHE"
+    },
+    {
+      "id": 22,
+      "categoriaId": 3,
+      "titulo": "Once Upon a Time | Era Uma Vez",
+      "url": "https://www.youtube.com/watch?v=tQT90enuZc4"
+    },
+    {
+      "id": 23,
+      "categoriaId": 3,
+      "titulo": "Chilling Adventures of Sabrina | O mundo sombrio de Sabrina",
+      "url": "https://www.youtube.com/watch?v=ybKUX6thF8Q"
+    },
+    {
+      "id": 24,
+      "categoriaId": 4,
+      "titulo": "Captain America: Civil War",
+      "url": "https://www.youtube.com/watch?v=FkTybqcX-Yo"
+    },
+    {
+      "id": 25,
+      "categoriaId": 4,
+      "titulo": "Thor: Ragnarok",
+      "url": "https://www.youtube.com/watch?v=ue80QwXMRHg"
+    },
+    {
+      "id": 26,
+      "categoriaId": 4,
+      "titulo": "Guardians of the Galaxy",
+      "url": "https://www.youtube.com/watch?v=d96cjJhvlMA"
+    },
+    {
+      "id": 27,
+      "categoriaId": 4,
+      "titulo": "Harry Potter - Series",
+      "url": "https://www.youtube.com/watch?v=VyHV0BRtdxo"
+    },
+    {
+      "id": 28,
+      "categoriaId": 4,
+      "titulo": "The Lord of the Rings - Trilogy",
+      "url": "https://www.youtube.com/watch?v=V75dMMIW2B4"
+    },
+    {
+      "id": 29,
+      "categoriaId": 4,
+      "titulo": "The Conjuring - Series",
+      "url": "https://www.youtube.com/watch?v=k10ETZ41q5o"
+    },
+    {
+      "id": 30,
+      "categoriaId": 4,
+      "titulo": "Insidious - Series",
+      "url": "https://www.youtube.com/watch?v=zuZnRUcoWos"
+    },
+    {
+      "id": 31,
+      "categoriaId": 4,
+      "titulo": "Paranormal Activity - Series",
+      "url": "https://www.youtube.com/watch?v=07XbSk7Rjt4"
+    },
+    {
+      "id": 32,
+      "categoriaId": 5,
+      "titulo": "Como estudar melhor?",
+      "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+    },
+    {
+      "id": 33,
+      "categoriaId": 5,
+      "titulo": "Faculdade",
+      "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+    },
+    {
+      "id": 34,
+      "categoriaId": 5,
+      "titulo": "Frameworks",
+      "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+    },
+    {
+      "id": 35,
+      "categoriaId": 5,
+      "titulo": "A mágica do Aprendizado",
+      "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+    },
+    {
+      "id": 36,
+      "categoriaId": 5,
+      "titulo": "Como aprender a programar?",
+      "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+    }
+  ]
 }
