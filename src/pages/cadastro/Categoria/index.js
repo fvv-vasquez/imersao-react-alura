@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
+import categoriasRepository from '../../../repositories/categorias';
 
 function CadastroCategoria() {
 
@@ -13,9 +14,9 @@ function CadastroCategoria() {
         cor: '',
     };
 
-    const { handleChange, values, clearForm } = useForm(valoresIniciais);
-
     const [categorias, setCategorias] = useState([]);
+    const history = useHistory();
+    const { handleChange, values, clearForm } = useForm(valoresIniciais);
 
     useEffect(() => {
             const URL = window.location.hostname.includes('localhost')
@@ -31,6 +32,34 @@ function CadastroCategoria() {
                 throw new Error('Não foi possível pegar os dados');
             })
     }, []);
+    
+    function handleSubmit(event) {
+        event.preventDefault();
+        const categoriaUpperCase = categorias.map((categoria) => {
+            let categoriaUpper = categoria.titulo.toUpperCase();
+            categoriaUpper = categoriaUpper.replace(/\s/g, '');
+            return categoriaUpper;
+        });
+    
+        let valueUpper = values.titulo.toUpperCase();
+        valueUpper = valueUpper.replace(/\s/g, '');
+    
+        if (categoriaUpperCase.includes(valueUpper)) {
+            alert('Categoria já existente');
+            clearForm();
+        } else {
+            setCategorias([
+                ...categorias,
+                values,
+            ]);
+            categoriasRepository.create({
+                titulo: values.titulo,
+                cor: values.cor,
+            });
+            clearForm();
+            history.push('/cadastro/video');
+        }
+    }
 
     return (
         <PageDefault>
@@ -39,15 +68,7 @@ function CadastroCategoria() {
                 {values.titulo}
             </h1>
 
-            <form onSubmit={function handleSubmit(infosDoEvento) {
-                infosDoEvento.preventDefault();
-                setCategorias([
-                    ...categorias,
-                    values,
-                ]);
-
-                clearForm();
-            }}>
+            <form onSubmit={handleSubmit}>
 
                 <FormField 
                     label="Título da Categoria"
@@ -75,6 +96,10 @@ function CadastroCategoria() {
                 <Button>
                     Cadastrar
                 </Button>
+
+                <Button as={Link} to="/">
+                    Ir para Home
+                </Button>
             </form>
             
             <ul>
@@ -86,10 +111,6 @@ function CadastroCategoria() {
                     )
                 })}
             </ul>
-
-            <Link to="/">
-                Ir para home
-            </Link>
         </PageDefault>
     )
 }

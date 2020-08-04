@@ -11,7 +11,7 @@ function CadastroVideo() {
     const history = useHistory();
     const [categorias, setCategorias] = useState([]);
     const categoryTitles = categorias.map(({ titulo }) => titulo);
-    const { handleChange, values } = useForm({
+    const { handleChange, values, clearForm } = useForm({
         titulo: '',
         url: '',
         categoria: '',
@@ -25,28 +25,34 @@ function CadastroVideo() {
         });
     }, []);
 
+    function onSubmitHandler(event) {
+        event.preventDefault();
+    
+        const categoriaEscolhida = categorias.find((categoria) => categoria.titulo === values.categoria);
+
+        if (!categoriaEscolhida) {
+            alert('Categoria não cadastrada. Favor cadastra-la ou escolher uma da listagem disponível!');
+            clearForm();
+            } else {
+                videosRepository.create({
+                    titulo: values.titulo,
+                    url: values.url,
+                    categoriaId: categoriaEscolhida.id,
+                })
+                .then(() => {
+                    console.log('Cadastrou com sucesso!');
+                    history.push('/');
+                });
+            }
+        }
+
     return (
         <PageDefault>
-        <h1>Cadastro de Video</h1>
+        <h1>
+            Cadastro de Video
+        </h1>
 
-        <form onSubmit={(event) => {
-            event.preventDefault();
-
-            const categoriaEscolhida = categorias.find((categoria) => {
-                return categoria.titulo === values.categoria;
-            });
-
-            videosRepository.create({
-                titulo: values.titulo,
-                url: values.url,
-                categoriaId: categoriaEscolhida.id,
-            })
-            .then(() => {
-                console.log('Cadastrou com sucesso!');
-                history.push('/');
-            });
-        }}
-        >
+        <form onSubmit={onSubmitHandler}>
             <FormField
                 label="Título do Vídeo"
                 name="titulo"
@@ -69,17 +75,14 @@ function CadastroVideo() {
                 suggestions={categoryTitles}
             />
 
-            <Button type="submit">
-                Cadastrar
+            <Button as="button" type="submit">
+                Cadastrar Vídeo
+            </Button>
+
+            <Button as={Link} to="/cadastro/categoria">
+                Cadastrar Categoria
             </Button>
         </form>
-        
-        <br />
-        <br />
-        
-        <Link to="/cadastro/categoria">
-            Cadastrar Categoria
-        </Link>
         </PageDefault>
     );
 }
